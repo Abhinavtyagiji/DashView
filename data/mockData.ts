@@ -10,8 +10,8 @@ export interface StatsData {
 
 export interface ChartData {
   name: string;
-  value: number;
-  [key: string]: string | number;
+  value?: number;
+  [key: string]: string | number | undefined;
 }
 
 export interface TableData {
